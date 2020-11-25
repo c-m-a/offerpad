@@ -1,0 +1,454 @@
+body {
+  background-color: #f6f6f6;
+}
+
+main {
+  margin-top: 96px;
+}
+
+.jumbotron {
+  background-image: radial-gradient(185% 1015px at center top, transparent 0%, transparent 66.9%, rgb(255, 255, 255) 67%, rgb(255, 255, 255) 100%),
+    linear-gradient(to right, rgba(0, 0, 0, .52), transparent),
+    url('../img/hero.jpg');
+  background-size: cover;
+}
+
+.jumbotron.jumbotron {
+  display: block;
+  height: 100vh;
+}
+
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #e97525;
+  --secondary: #495d75;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue"rial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular,Menlo,Monac
+      o,Consolas,"Liberation Mono","Courier New"onospace;
+}
+
+button.btn.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+input.form-control.form-control-lg {
+}
+
+.jt-container-size {
+  margin-left: 97px;
+  max-width: 800px;
+}
+
+.jt-slogan {
+  font-family: freight-display-pro, serif;
+}
+
+.jt-lead {
+  width: 456px;
+}
+
+.form-control.form-control-xl {
+  height: 69px;
+}
+
+.btn.btn-xl {
+  height: 69px;
+}
+
+.jt-search-box {
+  display: flex;
+}
+
+.benefits {
+  position: relative;
+  top: -90px;
+}
+
+.rounded-top-xl {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.benefits__title {
+  font-family: freight-display-pro, serif;
+}
+
+.benefits__highlight {
+  display: block;
+  height: 8px;
+  width: 260px;
+  background-color: #fce7a7;
+}
+
+.benefits__right-offset {
+  margin-top: 58px;
+  padding-top: 7px;
+}
+
+.benefits__right-borders {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.benefits__partner {
+  box-shadow: 0 -5px 99px rgba(0,0,0,.16);
+}
+
+.benefits__partner-list {
+  list-style: none;
+  padding: none;
+}
+
+.benefits__partner-list li {
+  padding-left: 13px;
+	margin-bottom: 14px;
+}
+
+.benefits__partner-list li::before {
+  color: #ec7625;
+  content: '\f0da'; /* FontAwesome Unicode */
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
+
+.media {
+  background-color: #346673;
+}
+
+.media__quote {
+  line-height: 40px;
+}
+
+.btn.btn-media {
+  color: #346673;
+}
+
+.selling-steps img {
+  width: 50%;
+  height: 50%;
+}
+
+.vertical-space-btwn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 250px;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  top: 0;
+  width: 100%;
+  font-family: museo-sans,
+    -apple-system,
+    system-ui,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Helvetica Neue,
+    Arial,
+    sans-serif;
+  font-size: 20px;
+  height: 96px;
+  background-color: #fff;
+  z-index: 100;
+}
+
+.header__brand {
+  display: block;
+  height: 3rem;
+  width: 11.7rem;
+}
+
+.header__logo {
+  fill: #ec7625;
+}
+
+.logo__icon {
+  fill: #1b6775;
+}
+
+.header__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: #5e84af;
+  height: 52px;
+  width: 80%;
+}
+
+.header__links a {
+  display: inline-block;
+  width: auto;
+  height: 100%;
+  color: #5e84af;
+  text-decoration: none;
+}
+
+.header__links a:hover {
+  color: #5581b2;
+  border-bottom: 8px solid #c6d0db;
+}
+
+.header__main-links {
+  display: flex;
+  height: 44px;
+  width: 360px;
+}
+
+.header__sell-link {
+  flex: .3;
+}
+
+.header__how-link {
+  flex: .47;
+}
+
+.header__buy-link {
+  flex: .23;
+}
+
+.header__phone-link {
+  padding-top: 14px;
+  height: 44px;
+}
+
+.header__main-links > li {
+  list-style-type: none;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1160px;
+}
+
+.header__menu-btn {
+  display: none;
+}
+
+.footer {
+  background-color: #2b3745;
+  font-size: 13px;
+  color: #c6d0db;
+}
+
+.footer a {
+  color: #c6d0db;
+}
+
+.footer a:hover {
+  color: var(--white);
+}
+
+.footer h5 {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.btn-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__brand-palette {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  height: 10px;
+}
+
+.footer__brand-palette > span {
+  height: 100%;
+  width: 100%;
+}
+
+.footer__logo {
+  fill: #db793c;
+  width: 187px;
+  height: 42px;
+}
+
+.footer__logo-icon {
+  fill: white;
+}
+
+.footer__logo:hover {
+  fill: white;
+}
+
+.footer__social-network {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__services,
+.footer__help,
+.footer__company {
+  padding: 0;
+  list-style: none;
+}
+
+.footer__title-underline {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #495d75;
+}
+
+.footer__housing-logo {
+  fill: #c4cfdc;
+  height: auto;
+  width: 3rem;
+}
+
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+.text-primary {
+  color: #258b9e !important;
+}
+
+.text-title {
+  font-family: freight-display-pro, serif;
+  font-size: normal;
+  font-weight: 900;
+}
+
+.btn-secondary {
+  background-color: var(--secondary);
+  color: #c6d0db;
+  border: 1px solid #495d75;
+}
+
+.bg-secondary {
+  background-color: var(--secondary) !important;
+}
+
+.footer__cp-link {
+  color: #c4cfdc;
+  text-decoration: underline;
+}
+
+.footer__cp-link:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__bottom-link {
+  color: #c4cfdc;
+  font-weight: 700;
+}
+
+.footer__bottom-link:hover {
+  color: white;
+}
+
+@media screen and (max-width: 991px) {
+  main {
+    margin-top: 48px;
+  }
+
+  .header {
+    height: 48px;
+  }
+
+  .header__brand {
+    width: auto;
+    height: 32px;
+  }
+
+  .header__logo {
+    height: 32px;
+  }
+
+  .header__wrapper {
+    align-items: center;
+  }
+
+  .header__links {
+    width: auto;
+  }
+
+  .header__main-links {
+    display: none;
+  }
+
+  .header__menu-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    width: 32px;
+    border-radius: 3px;
+  }
+
+  .header__menu-btn:hover {
+    cursor: pointer;
+    background-color: #f9f9fa;
+  }
+
+  .header__menu-btn span,
+  .header__menu-btn span::before,
+  .header__menu-btn span::after {
+    display: block;
+    height: 3px;
+    background-color: #5e84af;
+    border-radius: 2px;
+  }
+
+  .header__menu-btn span {
+    width: 20px;
+  }
+
+  .header__menu-btn span::before {
+    content: '';
+    width: 10px;
+    margin-top: -6px;
+  }
+
+  .header__menu-btn span::after {
+    content: '';
+    width: 15px;
+    margin-top: 9px;
+  }
+
+  .header__phone-link {
+    border: 0 !important;
+  }
+
+  .header__phone-text {
+    display: none;
+  }
+}
