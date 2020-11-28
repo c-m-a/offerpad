@@ -6,6 +6,10 @@ main {
   margin-top: 96px;
 }
 
+a {
+  color: var(primary) !important;
+}
+
 .jumbotron {
   background-image: radial-gradient(185% 1015px at center top, transparent 0%, transparent 66.9%, rgb(255, 255, 255) 67%, rgb(255, 255, 255) 100%),
     linear-gradient(to right, rgba(0, 0, 0, .52), transparent),
@@ -53,9 +57,6 @@ main {
 button.btn.btn-primary {
   background-color: var(--primary);
   border-color: var(--primary);
-}
-
-input.form-control.form-control-lg {
 }
 
 .jt-container-size {
@@ -373,6 +374,59 @@ input.form-control.form-control-lg {
 
 .footer__bottom-link:hover {
   color: white;
+}
+
+.img__bg--trans-white {
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,0) 60%, rgba(255,255,255,1) 80%, rgba(255,255,255,1) 100%);
+}
+
+.img__bg--white-trans {
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,0) 100%);
+}
+
+.img__out-box {
+  position: absolute;
+  height: 136%;
+  width: 100%;
+  margin-top: -42px;
+}
+
+.htw__shadown {
+  box-shadow: 40px 0 60px rgba(0,0,0,.07);
+}
+
+.brr-lg-rounded {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.blr-lg-rounded {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.brr-lg-rounded {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.lg-rounded {
+  border-radius: 20px;
+}
+
+.mt-offset {
+  margin-top: -100px;
+}
+
+div .font-bolt {
+  font-size: 70px;
+  color: var(--primary);
+}
+
+.how-it-works__bottom {
+  box-shadow: -20px 0 60px rgba(0,0,0,.07);
 }
 
 @media screen and (max-width: 991px) {
